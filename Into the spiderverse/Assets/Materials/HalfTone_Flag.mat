@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: HalfTone
+  m_Name: HalfTone_Flag
   m_Shader: {fileID: -6465566751694194690, guid: d56cffc8c4aac67428e343152fa22558, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -81,9 +81,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - Vector1_2A455339: 0
+    - Vector1_2A455339: 1
     - Vector1_2baf1933b31e4f76aeefcb5091bf12d6: 3.37
-    - Vector1_5A9E5888: 0.774
+    - Vector1_5A9E5888: 0.336
     - Vector1_7c339438692b4b44839b6bf72971d5cb: 41.76
     - Vector1_827c926ee7d64230be14bccc3e7c7ef3: 1.56
     - Vector1_CD9CB9E8: 0
@@ -117,6 +117,7 @@ Material:
     m_Colors:
     - Color_258e194e6be747928e3be4386a701d2c: {r: 0, g: 0, b: 0, a: 0}
     - Color_3167771ddc314e06940b9e19e5f9ad94: {r: 0, g: 0, b: 0, a: 0}
+    - Color_69c2e61e48c047538feedfa8d1dc056b: {r: 0.33962262, g: 0.10292637, b: 0, a: 0}
     - Color_FA669E8D: {r: 0, g: 0, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
