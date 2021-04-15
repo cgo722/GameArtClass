@@ -57,8 +57,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Shaders\unityglitch-master\GlitchEffect.cs" />
-    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-    <Compile Include="Assets\Scripts\LookWithMouse.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Shaders\Assets\CustomLighting.hlsl" />

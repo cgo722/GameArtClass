@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Into the spiderverse.unity
+    guid: 96c9ba9376afb754f9622839db8d00e1
   m_configObjects: {}
