@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d0e492fe6eb5d246aa7c964f7bac4a4, type: 3}
-  m_Name: NewDrawFullscreenFeature
+  m_Name: PaintEffect
   m_EditorClassIdentifier: 
   m_Active: 1
   settings:
     renderPassEvent: 300
     blitMaterial: {fileID: 2100000, guid: 2419f353e49ca4d45ab9488a1ce61a50, type: 2}
-    blitMaterialPassIndex: -1
+    blitMaterialPassIndex: 0
     sourceType: 0
     destinationType: 0
     sourceTextureId: _SourceTexture

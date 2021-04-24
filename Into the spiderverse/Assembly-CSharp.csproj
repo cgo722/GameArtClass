@@ -56,21 +56,21 @@
     <Analyzer Include="D:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Shaders\unityglitch-master\GlitchEffect.cs" />
-    <Compile Include="Assets\PainterlyImageEffect\PainterlyImageEffect.cs" />
-    <Compile Include="Assets\Scripts\Scripts\SnapshotMode\SnapshotMode.cs" />
-    <Compile Include="Assets\Scripts\Scripts\CameraMove.cs" />
-    <Compile Include="Assets\Scripts\Scripts\ImageEffects\ImageEffectBloom.cs" />
-    <Compile Include="Assets\Scripts\Scripts\SnapshotMode\SnapshotFilter.cs" />
-    <Compile Include="Assets\Scripts\Scripts\Hover.cs" />
     <Compile Include="Assets\Scripts\Scripts\ImageEffects\ImageEffectPixelate.cs" />
-    <Compile Include="Assets\Scripts\Scripts\SnapshotMode\SnapshotCanvas.cs" />
-    <Compile Include="Assets\Scripts\Scripts\Rotate.cs" />
     <Compile Include="Assets\Scripts\Scripts\ImageEffects\ImageEffectCRT.cs" />
+    <Compile Include="Assets\Scripts\DrawFullscreenFeature.cs" />
+    <Compile Include="Assets\Shaders\unityglitch-master\GlitchEffect.cs" />
+    <Compile Include="Assets\Scripts\Scripts\SnapshotMode\SnapshotMode.cs" />
     <Compile Include="Assets\Scripts\Scripts\ImageEffects\ImageEffectBase.cs" />
     <Compile Include="Assets\Scripts\Scripts\ImageEffects\ImageEffectGaussian.cs" />
+    <Compile Include="Assets\Scripts\Scripts\Rotate.cs" />
+    <Compile Include="Assets\Scripts\Scripts\SnapshotMode\SnapshotCanvas.cs" />
+    <Compile Include="Assets\Scripts\Scripts\Hover.cs" />
+    <Compile Include="Assets\PainterlyImageEffect\PainterlyImageEffect.cs" />
+    <Compile Include="Assets\Scripts\Scripts\ImageEffects\ImageEffectBloom.cs" />
+    <Compile Include="Assets\Scripts\Scripts\SnapshotMode\SnapshotFilter.cs" />
+    <Compile Include="Assets\Scripts\Scripts\CameraMove.cs" />
     <Compile Include="Assets\Scripts\DrawFullscreenPass.cs" />
-    <Compile Include="Assets\Scripts\DrawFullscreenFeature.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Shaders\Complete\Complete\Silhouette.shader" />
@@ -755,6 +755,21 @@
     </Reference>
     <Reference Include="Unity.Recorder">
       <HintPath>Library\ScriptAssemblies\Unity.Recorder.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AdaptivePerformance.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.AdaptivePerformance.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AdaptivePerformance">
+      <HintPath>Library\ScriptAssemblies\Unity.AdaptivePerformance.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AdaptivePerformance.Simulator.Extension">
+      <HintPath>Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.Extension.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Subsystem.Registration">
+      <HintPath>Library\ScriptAssemblies\Unity.Subsystem.Registration.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AdaptivePerformance.Simulator.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
