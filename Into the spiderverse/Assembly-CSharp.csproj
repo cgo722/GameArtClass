@@ -57,10 +57,45 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Shaders\unityglitch-master\GlitchEffect.cs" />
+    <Compile Include="Assets\PainterlyImageEffect\PainterlyImageEffect.cs" />
+    <Compile Include="Assets\Scripts\Scripts\SnapshotMode\SnapshotMode.cs" />
+    <Compile Include="Assets\Scripts\Scripts\CameraMove.cs" />
+    <Compile Include="Assets\Scripts\Scripts\ImageEffects\ImageEffectBloom.cs" />
+    <Compile Include="Assets\Scripts\Scripts\SnapshotMode\SnapshotFilter.cs" />
+    <Compile Include="Assets\Scripts\Scripts\Hover.cs" />
+    <Compile Include="Assets\Scripts\Scripts\ImageEffects\ImageEffectPixelate.cs" />
+    <Compile Include="Assets\Scripts\Scripts\SnapshotMode\SnapshotCanvas.cs" />
+    <Compile Include="Assets\Scripts\Scripts\Rotate.cs" />
+    <Compile Include="Assets\Scripts\Scripts\ImageEffects\ImageEffectCRT.cs" />
+    <Compile Include="Assets\Scripts\Scripts\ImageEffects\ImageEffectBase.cs" />
+    <Compile Include="Assets\Scripts\Scripts\ImageEffects\ImageEffectGaussian.cs" />
+    <Compile Include="Assets\Scripts\DrawFullscreenPass.cs" />
+    <Compile Include="Assets\Scripts\DrawFullscreenFeature.cs" />
   </ItemGroup>
   <ItemGroup>
+     <None Include="Assets\Shaders\Complete\Complete\Silhouette.shader" />
+     <None Include="Assets\Shaders\Complete\Complete\Greyscale.shader" />
+     <None Include="Assets\Shaders\Complete\Complete\Sepia.shader" />
+     <None Include="Assets\Shaders\Complete\Complete\Base.shader" />
      <None Include="Assets\Shaders\Assets\CustomLighting.hlsl" />
+     <None Include="Assets\Shaders\Complete\Complete\EdgeBlur.shader" />
+     <None Include="Assets\Shaders\Complete\Complete\Bloom.shader" />
+     <None Include="Assets\Shaders\Complete\Complete\CRTScreen.shader" />
+     <None Include="Assets\PainterlyImageEffect\Painterly.shader" />
+     <None Include="Assets\Shaders\Complete\Complete\PixelSNES.shader" />
+     <None Include="Assets\Shaders\OilPainting.shader" />
+     <None Include="Assets\Shaders\Complete\Complete\GaussianBlurSinglepass.shader" />
+     <None Include="Assets\Shaders\Complete\Complete\BoxBlurMultipass.shader" />
+     <None Include="Assets\Shaders\ToonBasicOutline.shader" />
+     <None Include="Assets\Shaders\Complete\Complete\Neon.shader" />
+     <None Include="Assets\Shaders\Complete\Complete\EdgeDetect.shader" />
+     <None Include="Assets\Shaders\Complete\Complete\PixelGB.shader" />
      <None Include="Assets\Shaders\unityglitch-master\GlitchShader.shader" />
+     <None Include="Assets\Shaders\Complete\Complete\PixelNES.shader" />
+     <None Include="Assets\Shaders\Complete\Complete\Painting.shader" />
+     <None Include="Assets\Shaders\Complete\Complete\BoxBlurSinglepass.shader" />
+     <None Include="Assets\Shaders\NewImageEffectShader.shader" />
+     <None Include="Assets\Shaders\Complete\Complete\GaussianBlurMultipass.shader" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.1.0b3\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

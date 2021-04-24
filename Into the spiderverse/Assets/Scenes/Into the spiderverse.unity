@@ -15,11 +15,11 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
   m_Fog: 1
-  m_FogColor: {r: 0.28734237, g: 0.011213911, b: 0.8490566, a: 1}
+  m_FogColor: {r: 0.36767262, g: 0.25290138, b: 0.6037736, a: 1}
   m_FogMode: 1
   m_FogDensity: 0.002
-  m_LinearFogStart: 96.93
-  m_LinearFogEnd: 574.5
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 700
   m_AmbientSkyColor: {r: 0.1342826, g: 0.16079989, b: 0.8679245, a: 1}
   m_AmbientEquatorColor: {r: 0.2967784, g: 0.29231045, b: 0.4339623, a: 1}
   m_AmbientGroundColor: {r: 0.03773582, g: 0.03773582, b: 0.03773582, a: 1}
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1966249260}
-  m_IndirectSpecularColor: {r: 0.011104611, g: 0.009141148, b: 0.034254115, a: 1}
+  m_IndirectSpecularColor: {r: 0.11185474, g: 0.098432444, b: 0.19165829, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -197,7 +197,7 @@ PrefabInstance:
     - target: {fileID: 1282219121056404672, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 05c35358272eb5a4090ef53ae5926960, type: 2}
+      objectReference: {fileID: 2100000, guid: fe41958d02b87654fb7bc3ac28d0e0d0, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
 --- !u!4 &526441 stripped
@@ -267,7 +267,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 9416ca6e82bbb724eb7064dd44d2b88b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 05c35358272eb5a4090ef53ae5926960, type: 2}
+      objectReference: {fileID: 2100000, guid: fe41958d02b87654fb7bc3ac28d0e0d0, type: 2}
     - target: {fileID: 919132149155446097, guid: 9416ca6e82bbb724eb7064dd44d2b88b, type: 3}
       propertyPath: m_Name
       value: BuildingExtension1 (26)
@@ -371,6 +371,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (79)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -606,7 +610,7 @@ GameObject:
   m_Component:
   - component: {fileID: 23637704}
   - component: {fileID: 23637703}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -689,6 +693,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Size.x
@@ -849,6 +857,10 @@ PrefabInstance:
       value: Sprite (21)
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 64
       objectReference: {fileID: 0}
@@ -928,6 +940,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1013,7 +1029,7 @@ GameObject:
   m_Component:
   - component: {fileID: 55389996}
   - component: {fileID: 55389995}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DistanceRedDot (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1152,7 +1168,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: e1b5cc31c147e144cb8655d15a2932b3, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 05c35358272eb5a4090ef53ae5926960, type: 2}
+      objectReference: {fileID: 2100000, guid: fe41958d02b87654fb7bc3ac28d0e0d0, type: 2}
     - target: {fileID: 919132149155446097, guid: e1b5cc31c147e144cb8655d15a2932b3, type: 3}
       propertyPath: m_Name
       value: Building (6)
@@ -1173,7 +1189,7 @@ GameObject:
   m_Component:
   - component: {fileID: 59165136}
   - component: {fileID: 59165135}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightSquare (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1256,6 +1272,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1448,7 +1468,7 @@ GameObject:
   m_Component:
   - component: {fileID: 71696821}
   - component: {fileID: 71696820}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (49)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1614,6 +1634,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (76)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1799,11 +1823,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9bbdfb8e873dc314f84c9f791e9e14a5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -128.3
+      value: -14.63
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9bbdfb8e873dc314f84c9f791e9e14a5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 254.7
+      value: 5.37
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9bbdfb8e873dc314f84c9f791e9e14a5, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1949,6 +1973,10 @@ PrefabInstance:
       value: Sprite (25)
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 64
       objectReference: {fileID: 0}
@@ -2047,15 +2075,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.3
+      value: 5.8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 14.89
+      value: 57.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -58.88
+      value: -165.1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2096,13 +2124,95 @@ PrefabInstance:
     - target: {fileID: 1282219121056404672, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 05c35358272eb5a4090ef53ae5926960, type: 2}
+      objectReference: {fileID: 2100000, guid: fe41958d02b87654fb7bc3ac28d0e0d0, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
 --- !u!4 &90410078 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
   m_PrefabInstance: {fileID: 90410077}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &95357721
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
+      propertyPath: m_RootOrder
+      value: 685
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.45498458
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.46772537
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.46772537
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -97.278
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -505.25
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1128.3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.03579542
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.00052620313
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9760806
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.21444154
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -24.75
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 175.601
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0.904
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
+      propertyPath: m_Name
+      value: Car (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282219121056404672, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 05c35358272eb5a4090ef53ae5926960, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
+--- !u!4 &95357722 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
+  m_PrefabInstance: {fileID: 95357721}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &96915499 stripped
 GameObject:
@@ -2211,7 +2321,7 @@ GameObject:
   m_Component:
   - component: {fileID: 97766617}
   - component: {fileID: 97766616}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2294,7 +2404,7 @@ GameObject:
   m_Component:
   - component: {fileID: 100494080}
   - component: {fileID: 100494079}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DistanceYellowDot (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2377,7 +2487,7 @@ GameObject:
   m_Component:
   - component: {fileID: 101870082}
   - component: {fileID: 101870081}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (68)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2601,7 +2711,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 1.5419345e-20, z: 3.24e-43, w: 9e-44}
+  m_BoundingSphereOverride: {x: 0, y: 7.85e-43, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -2630,6 +2740,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Size.x
@@ -2798,7 +2912,7 @@ GameObject:
   m_Component:
   - component: {fileID: 114757408}
   - component: {fileID: 114757407}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DistanceRedDot (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2945,7 +3059,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 7.65e-43, y: 7.1e-44, z: 0, w: -9.960197e-25}
+  m_BoundingSphereOverride: {x: 1.37e-43, y: -0.0000061592837, z: 2.37e-43, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -2974,7 +3088,7 @@ GameObject:
   m_Component:
   - component: {fileID: 131276568}
   - component: {fileID: 131276567}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightSquare (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3057,7 +3171,7 @@ GameObject:
   m_Component:
   - component: {fileID: 132881672}
   - component: {fileID: 132881671}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DistanceRedDot (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3140,7 +3254,7 @@ GameObject:
   m_Component:
   - component: {fileID: 134762085}
   - component: {fileID: 134762084}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3223,7 +3337,7 @@ GameObject:
   m_Component:
   - component: {fileID: 139581043}
   - component: {fileID: 139581042}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (61)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3375,6 +3489,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Size.x
@@ -3755,6 +3873,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sprite (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Size.x
       value: 20
@@ -3931,7 +4053,7 @@ MonoBehaviour:
   m_RequiresOpaqueTextureOption: 2
   m_CameraType: 0
   m_Cameras: []
-  m_RendererIndex: -1
+  m_RendererIndex: 0
   m_VolumeLayerMask:
     serializedVersion: 2
     m_Bits: 55
@@ -4243,7 +4365,7 @@ GameObject:
   m_Component:
   - component: {fileID: 169602331}
   - component: {fileID: 169602330}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (83)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4771,7 +4893,7 @@ PrefabInstance:
     - target: {fileID: 1282219121056404672, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 05c35358272eb5a4090ef53ae5926960, type: 2}
+      objectReference: {fileID: 2100000, guid: fe41958d02b87654fb7bc3ac28d0e0d0, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
 --- !u!4 &184569163 stripped
@@ -4789,7 +4911,7 @@ GameObject:
   m_Component:
   - component: {fileID: 184717853}
   - component: {fileID: 184717852}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (58)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4872,6 +4994,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (89)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5121,7 +5247,7 @@ GameObject:
   m_Component:
   - component: {fileID: 194113110}
   - component: {fileID: 194113109}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5380,6 +5506,10 @@ PrefabInstance:
       value: Sprite (42)
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 64
       objectReference: {fileID: 0}
@@ -5527,7 +5657,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 9.995514e+32, y: 4.1992965e+12, z: 1.0928118e+24, w: 1.6018792e+34}
+  m_BoundingSphereOverride: {x: 0, y: 1.57e-43, z: 0, w: 1.57e-43}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -5620,7 +5750,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.7851562e+25, y: 2.959217e+21, z: 6.977986e+22, w: 3.6011463e-14}
+  m_BoundingSphereOverride: {x: 0, y: 1.57e-43, z: 0, w: 1.57e-43}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -5649,6 +5779,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Size.x
@@ -5842,7 +5976,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 225570692}
   m_LocalRotation: {x: -0.16742264, y: 0.02488945, z: -0.10136483, w: 0.9803445}
-  m_LocalPosition: {x: -15, y: 110, z: -57}
+  m_LocalPosition: {x: -47, y: 117, z: -57}
   m_LocalScale: {x: 50.255966, y: 50.255947, z: 50.255966}
   m_Children: []
   m_Father: {fileID: 76711700}
@@ -5899,13 +6033,13 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 7.629279e+17, y: NaN, z: 1.3563156e-19, w: 1.13188294e+21}
+  m_BoundingSphereOverride: {x: 0, y: NaN, z: -2.3059837e+18, w: 1.3877788e-17}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -6159,7 +6293,7 @@ GameObject:
   m_Component:
   - component: {fileID: 233278631}
   - component: {fileID: 233278630}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DistanceYellowDot (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6325,7 +6459,7 @@ GameObject:
   m_Component:
   - component: {fileID: 238032904}
   - component: {fileID: 238032903}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6697,13 +6831,13 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 2.3509887e-38, z: 0.0000000018773108, w: -5.018596e+10}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -6716,7 +6850,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 252618606}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.99, y: 3.6, z: 47.82}
+  m_LocalPosition: {x: 16.58, y: -2.39, z: 47.89}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -6871,7 +7005,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 9416ca6e82bbb724eb7064dd44d2b88b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 05c35358272eb5a4090ef53ae5926960, type: 2}
+      objectReference: {fileID: 2100000, guid: fe41958d02b87654fb7bc3ac28d0e0d0, type: 2}
     - target: {fileID: 919132149155446097, guid: 9416ca6e82bbb724eb7064dd44d2b88b, type: 3}
       propertyPath: m_Name
       value: BuildingExtension1 (32)
@@ -6892,6 +7026,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (80)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6981,7 +7119,7 @@ GameObject:
   m_Component:
   - component: {fileID: 263404166}
   - component: {fileID: 263404165}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (55)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7205,7 +7343,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: -Infinity, y: 1.11022296e-16, z: 2.3509887e-38, w: 2.87e-42}
+  m_BoundingSphereOverride: {x: 0, y: 1.57e-43, z: 0, w: 1.57e-43}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -7416,7 +7554,7 @@ GameObject:
   m_Component:
   - component: {fileID: 274718239}
   - component: {fileID: 274718238}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (87)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7563,7 +7701,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 2.3509887e-38, z: 7.105644e-15, w: 1.4757395e+20}
+  m_BoundingSphereOverride: {x: 0, y: -3.9235224e+10, z: 7.47e-43, w: -7.158104e-21}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -7666,6 +7804,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sprite (66)
       objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Size.x
       value: 20
@@ -7750,6 +7892,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (75)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -8072,7 +8218,7 @@ GameObject:
   m_Component:
   - component: {fileID: 293654357}
   - component: {fileID: 293654356}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BlueLightSquare (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8303,7 +8449,7 @@ GameObject:
   m_Component:
   - component: {fileID: 296318324}
   - component: {fileID: 296318323}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BlueLightSquare (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9601,89 +9747,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9eb8b3012071f8b4694f3c6d3305019b, type: 3}
---- !u!1 &297823502
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 297823504}
-  - component: {fileID: 297823503}
-  m_Layer: 0
-  m_Name: LightSquare (37)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &297823503
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 297823502}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 6a9abd21198f7954d96e62f1cbd57cd2, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.05490196}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 20, y: 20}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &297823504
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 297823502}
-  m_LocalRotation: {x: 0.03803338, y: 0.7060832, z: 0.038033366, w: 0.7060832}
-  m_LocalPosition: {x: 40.56, y: 13.31, z: 21.17}
-  m_LocalScale: {x: 0.013736562, y: 0.5592873, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 685
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 6.167}
 --- !u!1001 &298801633
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9694,6 +9757,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -9860,7 +9927,7 @@ GameObject:
   m_Component:
   - component: {fileID: 301214101}
   - component: {fileID: 301214100}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10036,7 +10103,7 @@ GameObject:
   m_Component:
   - component: {fileID: 307364928}
   - component: {fileID: 307364927}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (56)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10275,7 +10342,7 @@ GameObject:
   m_Component:
   - component: {fileID: 328701536}
   - component: {fileID: 328701535}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Science
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10358,7 +10425,7 @@ GameObject:
   m_Component:
   - component: {fileID: 329762235}
   - component: {fileID: 329762234}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DistanceYellowDot (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10441,6 +10508,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -10613,7 +10684,7 @@ GameObject:
   m_Component:
   - component: {fileID: 349407083}
   - component: {fileID: 349407082}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (82)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10775,6 +10846,10 @@ PrefabInstance:
       value: Sprite (28)
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 64
       objectReference: {fileID: 0}
@@ -10858,6 +10933,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (69)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Size.x
@@ -11052,7 +11131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 358756940}
   - component: {fileID: 358756939}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DistanceRedDot (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11199,7 +11278,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 4.5904e-41, y: NaN, z: 7.47e-43, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -11468,7 +11547,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: ec5955958718f45419f9b4aa8ae6ca1f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: b50c90beedd005143b0e78a19bd83ab5, type: 2}
+      objectReference: {fileID: 2100000, guid: fe41958d02b87654fb7bc3ac28d0e0d0, type: 2}
     - target: {fileID: 919132149155446097, guid: ec5955958718f45419f9b4aa8ae6ca1f, type: 3}
       propertyPath: m_Name
       value: BuildingOverhang3
@@ -11558,6 +11637,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -11801,6 +11884,10 @@ PrefabInstance:
       value: Sprite (12)
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 64
       objectReference: {fileID: 0}
@@ -11888,7 +11975,7 @@ GameObject:
   m_Component:
   - component: {fileID: 382029087}
   - component: {fileID: 382029086}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11971,6 +12058,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -12133,6 +12224,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -12345,6 +12440,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sprite (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Size.x
       value: 20
@@ -12429,7 +12528,7 @@ GameObject:
   m_Component:
   - component: {fileID: 418605064}
   - component: {fileID: 418605063}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (63)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12888,7 +12987,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 7.737147e+25}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -12917,7 +13016,7 @@ GameObject:
   m_Component:
   - component: {fileID: 431853279}
   - component: {fileID: 431853278}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13075,6 +13174,10 @@ PrefabInstance:
       value: Sprite (26)
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 64
       objectReference: {fileID: 0}
@@ -13158,7 +13261,7 @@ GameObject:
   m_Component:
   - component: {fileID: 439836993}
   - component: {fileID: 439836992}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (88)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13374,7 +13477,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 7.05e-43, y: 7.176e-42, z: 0, w: 5e-43}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -13476,7 +13579,7 @@ GameObject:
   m_Component:
   - component: {fileID: 450688531}
   - component: {fileID: 450688530}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightSquare (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13559,6 +13662,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Size.x
@@ -13703,6 +13810,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 030d021581503824dbc93902348da030, type: 3}
+--- !u!1 &458028926 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
+  m_PrefabInstance: {fileID: 95357721}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &458028927
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458028926}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0006fee8d0954ad4ba204a7a99248c22, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &461863205
 GameObject:
   m_ObjectHideFlags: 0
@@ -14011,89 +14142,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d9e414e9d291cf469a3346ee02e3989, type: 3}
---- !u!1 &472753109
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 472753111}
-  - component: {fileID: 472753110}
-  m_Layer: 0
-  m_Name: LightSquare (35)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &472753110
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 472753109}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 6a9abd21198f7954d96e62f1cbd57cd2, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.05490196}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 20, y: 20}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &472753111
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 472753109}
-  m_LocalRotation: {x: 0.03803338, y: 0.7060832, z: 0.038033366, w: 0.7060832}
-  m_LocalPosition: {x: 40.56, y: 13.443936, z: 19.930365}
-  m_LocalScale: {x: 0.013736562, y: 0.5592873, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 683
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 6.167}
 --- !u!1001 &472790121
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15870,7 +15918,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 0.09368734, b: 0, a: 1}
   m_Intensity: 51.53
-  m_Range: 0.65
+  m_Range: 1.64
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -15962,7 +16010,7 @@ GameObject:
   m_Component:
   - component: {fileID: 501878716}
   - component: {fileID: 501878715}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16128,7 +16176,7 @@ GameObject:
   m_Component:
   - component: {fileID: 523801062}
   - component: {fileID: 523801061}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DistanceYellowDot (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16211,7 +16259,7 @@ GameObject:
   m_Component:
   - component: {fileID: 523822856}
   - component: {fileID: 523822855}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (86)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16369,6 +16417,10 @@ PrefabInstance:
       value: Sprite (7)
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 64
       objectReference: {fileID: 0}
@@ -16460,6 +16512,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (86)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Size.x
@@ -16689,6 +16745,10 @@ PrefabInstance:
       value: Sprite (34)
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 64
       objectReference: {fileID: 0}
@@ -16772,7 +16832,7 @@ GameObject:
   m_Component:
   - component: {fileID: 532947599}
   - component: {fileID: 532947598}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16934,6 +16994,10 @@ PrefabInstance:
       value: Sprite (78)
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 64
       objectReference: {fileID: 0}
@@ -17021,7 +17085,7 @@ GameObject:
   m_Component:
   - component: {fileID: 540059841}
   - component: {fileID: 540059840}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DistanceYellowDot (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17243,7 +17307,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 9416ca6e82bbb724eb7064dd44d2b88b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 05c35358272eb5a4090ef53ae5926960, type: 2}
+      objectReference: {fileID: 2100000, guid: fe41958d02b87654fb7bc3ac28d0e0d0, type: 2}
     - target: {fileID: 919132149155446097, guid: 9416ca6e82bbb724eb7064dd44d2b88b, type: 3}
       propertyPath: m_Name
       value: BuildingExtension1 (33)
@@ -17357,6 +17421,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (74)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -17751,6 +17819,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sprite (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Size.x
       value: 20
@@ -17899,7 +17971,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 3.85186e-34, y: 1.009742e-28, z: 2.3509887e-38, w: 4.5918e-41}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -18235,7 +18307,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: e1b5cc31c147e144cb8655d15a2932b3, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 05c35358272eb5a4090ef53ae5926960, type: 2}
+      objectReference: {fileID: 2100000, guid: fe41958d02b87654fb7bc3ac28d0e0d0, type: 2}
     - target: {fileID: 919132149155446097, guid: e1b5cc31c147e144cb8655d15a2932b3, type: 3}
       propertyPath: m_Name
       value: Building
@@ -18277,7 +18349,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 0.09368734, b: 0, a: 1}
   m_Intensity: 51.53
-  m_Range: 0.65
+  m_Range: 1.85
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -18531,6 +18603,10 @@ PrefabInstance:
       value: Sprite (36)
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 64
       objectReference: {fileID: 0}
@@ -18614,7 +18690,7 @@ GameObject:
   m_Component:
   - component: {fileID: 590124119}
   - component: {fileID: 590124118}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DistanceYellowDot (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18849,7 +18925,7 @@ GameObject:
   m_Component:
   - component: {fileID: 615095765}
   - component: {fileID: 615095764}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BlueLightSquare (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18922,6 +18998,75 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 432
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &618595779
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: e274700a308ebaf4ea0250ad69eb4f96, type: 3}
+      propertyPath: m_RootOrder
+      value: 683
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e274700a308ebaf4ea0250ad69eb4f96, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.011404062
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e274700a308ebaf4ea0250ad69eb4f96, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.016753
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e274700a308ebaf4ea0250ad69eb4f96, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 53
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e274700a308ebaf4ea0250ad69eb4f96, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -49.3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e274700a308ebaf4ea0250ad69eb4f96, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 85.4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e274700a308ebaf4ea0250ad69eb4f96, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.68825674
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e274700a308ebaf4ea0250ad69eb4f96, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.16367266
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e274700a308ebaf4ea0250ad69eb4f96, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.6894229
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e274700a308ebaf4ea0250ad69eb4f96, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.15559559
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e274700a308ebaf4ea0250ad69eb4f96, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.616
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e274700a308ebaf4ea0250ad69eb4f96, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90.24
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e274700a308ebaf4ea0250ad69eb4f96, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -26.096
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e274700a308ebaf4ea0250ad69eb4f96, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fe41958d02b87654fb7bc3ac28d0e0d0, type: 2}
+    - target: {fileID: 919132149155446097, guid: e274700a308ebaf4ea0250ad69eb4f96, type: 3}
+      propertyPath: m_Name
+      value: Road (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e274700a308ebaf4ea0250ad69eb4f96, type: 3}
 --- !u!1001 &623256565
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18932,6 +19077,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (82)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Size.x
@@ -19102,6 +19251,10 @@ PrefabInstance:
       value: Sprite (41)
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 64
       objectReference: {fileID: 0}
@@ -19181,7 +19334,7 @@ GameObject:
   m_Component:
   - component: {fileID: 633027111}
   - component: {fileID: 633027110}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19418,6 +19571,10 @@ PrefabInstance:
       value: Sprite (81)
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 64
       objectReference: {fileID: 0}
@@ -19590,6 +19747,10 @@ PrefabInstance:
       value: Sprite (24)
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 64
       objectReference: {fileID: 0}
@@ -19742,6 +19903,71 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 534
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &661141449
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 95357722}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.009999998
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -11.581024
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.5148554
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -13.134722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.06779007
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.03642411
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.95436203
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.2885669
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -16.248
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 25.642
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 13.479
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fe41958d02b87654fb7bc3ac28d0e0d0, type: 2}
+    - target: {fileID: 919132149155446097, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_Name
+      value: Wheel (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 030d021581503824dbc93902348da030, type: 3}
 --- !u!1001 &661315495
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19906,7 +20132,7 @@ GameObject:
   m_Component:
   - component: {fileID: 663478494}
   - component: {fileID: 663478493}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BlueLightSquare (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20072,7 +20298,7 @@ GameObject:
   m_Component:
   - component: {fileID: 673288294}
   - component: {fileID: 673288293}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DistanceYellowDot (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20155,6 +20381,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (84)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Size.x
@@ -20240,7 +20470,7 @@ GameObject:
   m_Component:
   - component: {fileID: 679453813}
   - component: {fileID: 679453812}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DistanceYellowDot (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20323,7 +20553,7 @@ GameObject:
   m_Component:
   - component: {fileID: 681332614}
   - component: {fileID: 681332613}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (57)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22927,6 +23157,10 @@ PrefabInstance:
       value: Sprite (37)
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 64
       objectReference: {fileID: 0}
@@ -23090,7 +23324,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 9416ca6e82bbb724eb7064dd44d2b88b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 05c35358272eb5a4090ef53ae5926960, type: 2}
+      objectReference: {fileID: 2100000, guid: fe41958d02b87654fb7bc3ac28d0e0d0, type: 2}
     - target: {fileID: 919132149155446097, guid: 9416ca6e82bbb724eb7064dd44d2b88b, type: 3}
       propertyPath: m_Name
       value: BuildingExtension1 (30)
@@ -23263,7 +23497,7 @@ GameObject:
   m_Component:
   - component: {fileID: 703628026}
   - component: {fileID: 703628025}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DistanceYellowDot (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23889,7 +24123,7 @@ GameObject:
   m_Component:
   - component: {fileID: 729074628}
   - component: {fileID: 729074627}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24189,6 +24423,10 @@ PrefabInstance:
       value: Sprite (27)
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 64
       objectReference: {fileID: 0}
@@ -24272,6 +24510,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Size.x
@@ -24409,7 +24651,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 9416ca6e82bbb724eb7064dd44d2b88b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 05c35358272eb5a4090ef53ae5926960, type: 2}
+      objectReference: {fileID: 2100000, guid: fe41958d02b87654fb7bc3ac28d0e0d0, type: 2}
     - target: {fileID: 919132149155446097, guid: 9416ca6e82bbb724eb7064dd44d2b88b, type: 3}
       propertyPath: m_Name
       value: BuildingExtension1 (23)
@@ -25877,7 +26119,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.504633e-36, y: 0.0078125, z: 2.3509887e-38, w: 0}
+  m_BoundingSphereOverride: {x: 1.01e-43, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -25983,6 +26225,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Size.x
@@ -26146,7 +26392,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.5046331e-36, y: 6.044629e+23, z: 2.3509887e-38, w: 1.148e-41}
+  m_BoundingSphereOverride: {x: 0, y: -1.6016892e+10, z: 7.47e-43, w: -1.4743658e+10}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -26185,6 +26431,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Size.x
@@ -26334,7 +26584,7 @@ PrefabInstance:
     - target: {fileID: 1282219121056404672, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 05c35358272eb5a4090ef53ae5926960, type: 2}
+      objectReference: {fileID: 2100000, guid: fe41958d02b87654fb7bc3ac28d0e0d0, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
 --- !u!4 &772378586 stripped
@@ -26580,6 +26830,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sprite (85)
       objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Size.x
       value: 20
@@ -26664,7 +26918,7 @@ GameObject:
   m_Component:
   - component: {fileID: 783471021}
   - component: {fileID: 783471020}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DistanceYellowDot (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26747,7 +27001,7 @@ GameObject:
   m_Component:
   - component: {fileID: 786197302}
   - component: {fileID: 786197301}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DistanceRedDot (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26908,6 +27162,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sprite (83)
       objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Size.x
       value: 20
@@ -26992,7 +27250,7 @@ GameObject:
   m_Component:
   - component: {fileID: 792291105}
   - component: {fileID: 792291104}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: E
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27075,7 +27333,7 @@ GameObject:
   m_Component:
   - component: {fileID: 794539274}
   - component: {fileID: 794539273}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightSquare (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27221,89 +27479,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1169049f3930d64c8672cfa7ebfe253, type: 3}
---- !u!1 &807069708
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 807069710}
-  - component: {fileID: 807069709}
-  m_Layer: 0
-  m_Name: LightSquare (36)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &807069709
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 807069708}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 6a9abd21198f7954d96e62f1cbd57cd2, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.05490196}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 20, y: 20}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &807069710
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 807069708}
-  m_LocalRotation: {x: 0.03803338, y: 0.7060832, z: 0.038033366, w: 0.7060832}
-  m_LocalPosition: {x: 40.56, y: 13.373378, z: 20.583412}
-  m_LocalScale: {x: 0.013736562, y: 0.5592873, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 684
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 6.167}
 --- !u!1001 &807158167
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27528,7 +27703,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 2.3509893e-38, y: -4.038968e-28, z: 2.3509887e-38, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: -1.6016892e+10, z: 7.47e-43, w: -2.3123984e+10}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -27924,7 +28099,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: e1b5cc31c147e144cb8655d15a2932b3, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 05c35358272eb5a4090ef53ae5926960, type: 2}
+      objectReference: {fileID: 2100000, guid: fe41958d02b87654fb7bc3ac28d0e0d0, type: 2}
     - target: {fileID: 919132149155446097, guid: e1b5cc31c147e144cb8655d15a2932b3, type: 3}
       propertyPath: m_Name
       value: Building (11)
@@ -28022,7 +28197,7 @@ GameObject:
   m_Component:
   - component: {fileID: 822653404}
   - component: {fileID: 822653403}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightSquare (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28105,7 +28280,7 @@ GameObject:
   m_Component:
   - component: {fileID: 823439709}
   - component: {fileID: 823439708}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: It's a spicy Meatball (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28188,6 +28363,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Size.x
@@ -28274,6 +28453,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sprite (59)
       objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Size.x
       value: 20
@@ -28358,7 +28541,7 @@ GameObject:
   m_Component:
   - component: {fileID: 827958627}
   - component: {fileID: 827958626}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (80)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28441,7 +28624,7 @@ GameObject:
   m_Component:
   - component: {fileID: 830749415}
   - component: {fileID: 830749414}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DistanceRedDot (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28524,7 +28707,7 @@ GameObject:
   m_Component:
   - component: {fileID: 836689145}
   - component: {fileID: 836689144}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (62)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28782,11 +28965,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -50.373
+      value: -46.93
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 91.971
+      value: 85.31
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -28840,6 +29023,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -29089,7 +29276,7 @@ GameObject:
   m_Component:
   - component: {fileID: 850045478}
   - component: {fileID: 850045477}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightSquare (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29172,6 +29359,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -29336,7 +29527,7 @@ GameObject:
   m_Component:
   - component: {fileID: 855116918}
   - component: {fileID: 855116917}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (69)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29419,7 +29610,7 @@ GameObject:
   m_Component:
   - component: {fileID: 855764416}
   - component: {fileID: 855764415}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29720,13 +29911,13 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 1.01e-43, y: -4.158566e-37, z: 4.5904e-41, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -29739,7 +29930,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 870932250}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.99, y: 13.06, z: 46.83}
+  m_LocalPosition: {x: 17.12, y: 13.06, z: 46.83}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -29994,7 +30185,7 @@ GameObject:
   m_Component:
   - component: {fileID: 887877860}
   - component: {fileID: 887877859}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (85)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30238,6 +30429,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sprite (62)
       objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Size.x
       value: 20
@@ -30405,6 +30600,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -30625,7 +30824,7 @@ GameObject:
   m_Component:
   - component: {fileID: 907592394}
   - component: {fileID: 907592393}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BlueLightSquare (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30858,6 +31057,70 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 663
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &911558751
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 911558753}
+  - component: {fileID: 911558752}
+  m_Layer: 0
+  m_Name: Reflection Probe (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!215 &911558752
+ReflectionProbe:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911558751}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Type: 0
+  m_Mode: 0
+  m_RefreshMode: 1
+  m_TimeSlicingMode: 2
+  m_Resolution: 16
+  m_UpdateFrequency: 0
+  m_BoxSize: {x: 48.543488, y: 11.113808, z: 112.91734}
+  m_BoxOffset: {x: 3.0111465, y: -5.556904, z: 15.452507}
+  m_NearClip: 0.3
+  m_FarClip: 100
+  m_ShadowDistance: 10
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IntensityMultiplier: 3
+  m_BlendDistance: 1
+  m_HDR: 1
+  m_BoxProjection: 0
+  m_RenderDynamicObjects: 0
+  m_UseOcclusionCulling: 1
+  m_Importance: 1
+  m_CustomBakedTexture: {fileID: 0}
+--- !u!4 &911558753
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911558751}
+  m_LocalRotation: {x: 0.4322735, y: -0, z: -0, w: 0.9017426}
+  m_LocalPosition: {x: -4, y: -52.020756, z: 92.78882}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 684
+  m_LocalEulerAnglesHint: {x: 51.224, y: 0, z: 0}
 --- !u!1 &912052352
 GameObject:
   m_ObjectHideFlags: 0
@@ -30868,7 +31131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 912052354}
   - component: {fileID: 912052353}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DistanceYellowDot (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31020,7 +31283,7 @@ GameObject:
   m_Component:
   - component: {fileID: 912492193}
   - component: {fileID: 912492192}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31103,7 +31366,7 @@ GameObject:
   m_Component:
   - component: {fileID: 917505813}
   - component: {fileID: 917505812}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31269,7 +31532,7 @@ GameObject:
   m_Component:
   - component: {fileID: 932533231}
   - component: {fileID: 932533230}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31352,7 +31615,7 @@ GameObject:
   m_Component:
   - component: {fileID: 933219898}
   - component: {fileID: 933219897}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31435,6 +31698,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (73)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Size.x
@@ -31607,7 +31874,7 @@ GameObject:
   m_Component:
   - component: {fileID: 946309893}
   - component: {fileID: 946309892}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31690,7 +31957,7 @@ GameObject:
   m_Component:
   - component: {fileID: 950692554}
   - component: {fileID: 950692553}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33466,7 +33733,7 @@ GameObject:
   m_Component:
   - component: {fileID: 985522358}
   - component: {fileID: 985522357}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (60)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33690,7 +33957,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 2.3509893e-38, y: -0.03125, z: 2.3509887e-38, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: -1.6198279e+10, z: 7.47e-43, w: -2.7381449e+10}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -33860,7 +34127,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 2.3509893e-38, y: -2.4178516e+24, z: 2.3509887e-38, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: -2.2092612e+10, z: 7.47e-43, w: -1.964595e+11}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -34093,6 +34360,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (65)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Size.x
@@ -34501,7 +34772,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 0.1209842, g: 1, b: 0, a: 1}
   m_Intensity: 51.53
-  m_Range: 0.65
+  m_Range: 1.44
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -34558,7 +34829,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1033832433}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -35.47, y: -14.92, z: 58.68}
+  m_LocalPosition: {x: -35.47, y: -14.843, z: 58.908}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -34593,7 +34864,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1037009297}
   - component: {fileID: 1037009296}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Clueless
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34676,6 +34947,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (55)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Size.x
@@ -34924,7 +35199,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 9416ca6e82bbb724eb7064dd44d2b88b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 05c35358272eb5a4090ef53ae5926960, type: 2}
+      objectReference: {fileID: 2100000, guid: fe41958d02b87654fb7bc3ac28d0e0d0, type: 2}
     - target: {fileID: 919132149155446097, guid: 9416ca6e82bbb724eb7064dd44d2b88b, type: 3}
       propertyPath: m_Name
       value: BuildingExtension1 (31)
@@ -34945,7 +35220,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1045986110}
   - component: {fileID: 1045986109}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (59)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35141,7 +35416,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1046854918}
   - component: {fileID: 1046854917}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35224,7 +35499,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1046957272}
   - component: {fileID: 1046957271}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (89)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35307,7 +35582,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1047757220}
   - component: {fileID: 1047757219}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35675,7 +35950,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1063320189}
   - component: {fileID: 1063320188}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DistanceRedDot (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35758,7 +36033,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1063536805}
   - component: {fileID: 1063536804}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35841,6 +36116,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -35950,7 +36229,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1075805139}
   - component: {fileID: 1075805138}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DistanceRedDot (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36289,7 +36568,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1084118650}
   - component: {fileID: 1084118649}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (72)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37069,7 +37348,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1102441546}
   - component: {fileID: 1102441545}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BlueLightSquare (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37283,7 +37562,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: f1169049f3930d64c8672cfa7ebfe253, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: b50c90beedd005143b0e78a19bd83ab5, type: 2}
+      objectReference: {fileID: 2100000, guid: fe41958d02b87654fb7bc3ac28d0e0d0, type: 2}
     - target: {fileID: 919132149155446097, guid: f1169049f3930d64c8672cfa7ebfe253, type: 3}
       propertyPath: m_Name
       value: BuildingOverhang2 (2)
@@ -37593,7 +37872,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 124094a61a2cbff4ea9f1e3e5ad86fd0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 05c35358272eb5a4090ef53ae5926960, type: 2}
+      objectReference: {fileID: 2100000, guid: fe41958d02b87654fb7bc3ac28d0e0d0, type: 2}
     - target: {fileID: 919132149155446097, guid: 124094a61a2cbff4ea9f1e3e5ad86fd0, type: 3}
       propertyPath: m_Name
       value: BillBoard (2)
@@ -37666,7 +37945,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: e1b5cc31c147e144cb8655d15a2932b3, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 05c35358272eb5a4090ef53ae5926960, type: 2}
+      objectReference: {fileID: 2100000, guid: fe41958d02b87654fb7bc3ac28d0e0d0, type: 2}
     - target: {fileID: 919132149155446097, guid: e1b5cc31c147e144cb8655d15a2932b3, type: 3}
       propertyPath: m_Name
       value: Building (4)
@@ -37687,6 +37966,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -37853,7 +38136,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1124243728}
   - component: {fileID: 1124243727}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (81)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38206,43 +38489,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.581024
+      value: -11.56
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.5148554
+      value: -1.51
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -13.134722
+      value: -13.15
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.06779007
+      value: 0.024701875
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.03642411
+      value: -0.049394667
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.95436203
+      value: -0.9564478
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.2885669
+      value: -0.28663173
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -16.248
+      value: -33.418
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 25.642
+      value: 181.3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 13.479
+      value: 5.522
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 030d021581503824dbc93902348da030, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -38399,7 +38682,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 9416ca6e82bbb724eb7064dd44d2b88b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 05c35358272eb5a4090ef53ae5926960, type: 2}
+      objectReference: {fileID: 2100000, guid: fe41958d02b87654fb7bc3ac28d0e0d0, type: 2}
     - target: {fileID: 919132149155446097, guid: 9416ca6e82bbb724eb7064dd44d2b88b, type: 3}
       propertyPath: m_Name
       value: BuildingExtension1 (24)
@@ -38503,7 +38786,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1151895268}
   - component: {fileID: 1151895267}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (52)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38744,6 +39027,10 @@ PrefabInstance:
       value: Sprite (29)
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 64
       objectReference: {fileID: 0}
@@ -38823,6 +39110,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Size.x
@@ -39238,7 +39529,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1171234347}
   - component: {fileID: 1171234346}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightSquare (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39321,6 +39612,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -39406,6 +39701,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (90)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -39495,7 +39794,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1178555768}
   - component: {fileID: 1178555767}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: It's a spicy Meatball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39647,7 +39946,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1182427160}
   - component: {fileID: 1182427159}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39794,7 +40093,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: -1.7014128e+38, y: 6.462348e-27, z: 2.350989e-38, w: 1.8e-43}
+  m_BoundingSphereOverride: {x: 0, y: 7.85e-43, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -40052,7 +40351,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1207024816}
   - component: {fileID: 1207024815}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (50)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40373,7 +40672,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: e1b5cc31c147e144cb8655d15a2932b3, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 05c35358272eb5a4090ef53ae5926960, type: 2}
+      objectReference: {fileID: 2100000, guid: fe41958d02b87654fb7bc3ac28d0e0d0, type: 2}
     - target: {fileID: 919132149155446097, guid: e1b5cc31c147e144cb8655d15a2932b3, type: 3}
       propertyPath: m_Name
       value: Building (8)
@@ -40627,7 +40926,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1223843033}
   - component: {fileID: 1223843032}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DistanceYellowDot (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40783,7 +41082,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1229362666}
   - component: {fileID: 1229362665}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BlueLightSquare (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41168,7 +41467,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1238274312}
   - component: {fileID: 1238274311}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41251,7 +41550,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1247224162}
   - component: {fileID: 1247224161}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DistanceRedDot (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41334,7 +41633,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1250440604}
   - component: {fileID: 1250440603}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DistanceYellowDot (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41574,7 +41873,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.1017202e+24, y: 2.7376664e+20, z: 33672640, w: 7.365175e+31}
+  m_BoundingSphereOverride: {x: NaN, y: 0, z: 0, w: 1e-45}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -41756,6 +42055,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sprite (67)
       objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Size.x
       value: 20
@@ -41848,7 +42151,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1275013574}
   - component: {fileID: 1275013573}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BlueLightSquare (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41987,7 +42290,7 @@ PrefabInstance:
     - target: {fileID: -1965656247495407620, guid: e10e807af491b85458b192c4d17a9182, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: b50c90beedd005143b0e78a19bd83ab5, type: 2}
+      objectReference: {fileID: 2100000, guid: 780af717d311b794daad2ae35a281190, type: 2}
     - target: {fileID: 919132149155446097, guid: e10e807af491b85458b192c4d17a9182, type: 3}
       propertyPath: m_Name
       value: ElectronicConstructionSign (1)
@@ -42004,7 +42307,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1279776931}
   - component: {fileID: 1279776930}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DistanceRedDot (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42087,7 +42390,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1279819586}
   - component: {fileID: 1279819585}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightSquare (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45412,6 +45715,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sprite (72)
       objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Size.x
       value: 20
@@ -45678,6 +45985,10 @@ PrefabInstance:
       value: Sprite (92)
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 64
       objectReference: {fileID: 0}
@@ -45765,6 +46076,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -45919,7 +46234,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1303054041}
   - component: {fileID: 1303054040}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46242,6 +46557,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sprite (61)
       objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Size.x
       value: 20
@@ -46403,7 +46722,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1326679284}
   - component: {fileID: 1326679283}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DistanceRedDot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46486,7 +46805,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1341114506}
   - component: {fileID: 1341114505}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DistanceYellowDot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50128,7 +50447,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1371902212}
   - component: {fileID: 1371902211}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BlueLightSquare (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50211,7 +50530,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1372614134}
   - component: {fileID: 1372614133}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (65)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50377,7 +50696,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1380514577}
   - component: {fileID: 1380514576}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightSquare (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52094,6 +52413,10 @@ PrefabInstance:
       value: Sprite (91)
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 64
       objectReference: {fileID: 0}
@@ -52181,7 +52504,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1415337389}
   - component: {fileID: 1415337388}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52341,7 +52664,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1422222348}
   - component: {fileID: 1422222347}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BlueLightSquare (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52424,6 +52747,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -52653,6 +52980,10 @@ PrefabInstance:
       value: Sprite (2)
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 64
       objectReference: {fileID: 0}
@@ -52813,6 +53144,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -52980,6 +53315,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sprite (87)
       objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Size.x
       value: 20
@@ -53137,7 +53476,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1437674664}
   - component: {fileID: 1437674663}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightSquare (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53319,7 +53658,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1446983316}
   - component: {fileID: 1446983315}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (79)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53402,7 +53741,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1451284420}
   - component: {fileID: 1451284419}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (73)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53485,7 +53824,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1451510614}
   - component: {fileID: 1451510613}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bank
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53568,6 +53907,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -53653,7 +53996,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1458671901}
   - component: {fileID: 1458671900}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53871,7 +54214,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 9416ca6e82bbb724eb7064dd44d2b88b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 05c35358272eb5a4090ef53ae5926960, type: 2}
+      objectReference: {fileID: 2100000, guid: fe41958d02b87654fb7bc3ac28d0e0d0, type: 2}
     - target: {fileID: 919132149155446097, guid: 9416ca6e82bbb724eb7064dd44d2b88b, type: 3}
       propertyPath: m_Name
       value: BuildingExtension1 (22)
@@ -53921,7 +54264,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1491776175}
   - component: {fileID: 1491776174}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DistanceRedDot (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54356,7 +54699,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1496534353}
   - component: {fileID: 1496534352}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightSquare (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54439,6 +54782,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (60)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Size.x
@@ -55750,6 +56097,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sprite (71)
       objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Size.x
       value: 20
@@ -56011,7 +56362,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 7.85e-43, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -56269,7 +56620,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1518155294}
   - component: {fileID: 1518155293}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (53)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56512,7 +56863,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1521133564}
   - component: {fileID: 1521133563}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56716,7 +57067,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1526450575}
   - component: {fileID: 1526450574}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57107,7 +57458,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1542092821}
   - component: {fileID: 1542092820}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58618,7 +58969,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1550306697}
   - component: {fileID: 1550306696}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58701,7 +59052,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1552799399}
   - component: {fileID: 1552799398}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58861,7 +59212,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1555378202}
   - component: {fileID: 1555378201}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58944,7 +59295,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1558816439}
   - component: {fileID: 1558816438}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (74)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59491,7 +59842,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1572427214}
   - component: {fileID: 1572427213}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59574,6 +59925,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -59806,7 +60161,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 2.9965768e+32, y: 1.8523599e+28, z: 2.9422846e+26, w: 1.7440043e+28}
+  m_BoundingSphereOverride: {x: 0, y: 7.85e-43, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -59970,6 +60325,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sprite (72)
       objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Size.x
       value: 20
@@ -59992,55 +60351,55 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2659896648288263275, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.653634
+      value: 0.8299845
       objectReference: {fileID: 0}
     - target: {fileID: 2659896648288263275, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.6672758
+      value: 2.3156033
       objectReference: {fileID: 0}
     - target: {fileID: 2659896648288263275, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.946349
+      value: 1.6080363
       objectReference: {fileID: 0}
     - target: {fileID: 2659896648288263275, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.69
+      value: -8.689994
       objectReference: {fileID: 0}
     - target: {fileID: 2659896648288263275, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.31
+      value: -2.1000025
       objectReference: {fileID: 0}
     - target: {fileID: 2659896648288263275, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -17.74
+      value: -17.749979
       objectReference: {fileID: 0}
     - target: {fileID: 2659896648288263275, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.018190216
+      value: 0.019147169
       objectReference: {fileID: 0}
     - target: {fileID: 2659896648288263275, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.030833505
+      value: 0.03024855
       objectReference: {fileID: 0}
     - target: {fileID: 2659896648288263275, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.6913407
+      value: -0.71360725
       objectReference: {fileID: 0}
     - target: {fileID: 2659896648288263275, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.7216416
+      value: 0.69963074
       objectReference: {fileID: 0}
     - target: {fileID: 2659896648288263275, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 117.239
+      value: 91.445984
       objectReference: {fileID: 0}
     - target: {fileID: 2659896648288263275, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -36.458008
       objectReference: {fileID: 0}
     - target: {fileID: 2659896648288263275, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 139.538
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
@@ -60054,7 +60413,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1596158452}
   - component: {fileID: 1596158451}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DistanceYellowDot (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60398,7 +60757,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1607623689}
   - component: {fileID: 1607623688}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (78)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60558,7 +60917,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1611573665}
   - component: {fileID: 1611573664}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DistanceRedDot (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60641,7 +61000,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1612252300}
   - component: {fileID: 1612252299}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightSquare (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60724,7 +61083,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1612853316}
   - component: {fileID: 1612853315}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60863,7 +61222,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: e1b5cc31c147e144cb8655d15a2932b3, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 05c35358272eb5a4090ef53ae5926960, type: 2}
+      objectReference: {fileID: 2100000, guid: fe41958d02b87654fb7bc3ac28d0e0d0, type: 2}
     - target: {fileID: 919132149155446097, guid: e1b5cc31c147e144cb8655d15a2932b3, type: 3}
       propertyPath: m_Name
       value: Building (5)
@@ -62183,6 +62542,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sprite (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Size.x
       value: 20
@@ -62331,7 +62694,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 9.1835e-41, w: 1.4785525e-38}
+  m_BoundingSphereOverride: {x: 0, y: 7.85e-43, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -62662,7 +63025,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1631954202}
   - component: {fileID: 1631954201}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DistanceRedDot (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62844,7 +63207,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1634721374}
   - component: {fileID: 1634721373}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (77)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62942,43 +63305,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.61
+      value: -5.610012
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.68
+      value: -1.6799825
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -13.02
+      value: -13.020077
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.00030650198
+      value: -0.019372733
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.0752254
+      value: 0.026270958
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.94659823
+      value: -0.94875365
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.31351689
+      value: -0.3143265
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -18.219
+      value: -36.688
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 21.682
+      value: 178.553
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -2.693
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 030d021581503824dbc93902348da030, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -63064,7 +63427,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 4.5e-44, y: 0, z: 9.1835e-41, w: 1.4785522e-38}
+  m_BoundingSphereOverride: {x: 5.9e-44, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -63370,6 +63733,10 @@ PrefabInstance:
       value: Sprite (6)
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 64
       objectReference: {fileID: 0}
@@ -63540,6 +63907,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -63845,6 +64216,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sprite (88)
       objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Size.x
       value: 20
@@ -63993,7 +64368,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 9.1835e-41, w: 1.478552e-38}
+  m_BoundingSphereOverride: {x: 0, y: -1.3600432e+10, z: 7.47e-43, w: -1.964595e+11}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -64560,7 +64935,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.8179296e+31, y: 8.561276e-39, z: 7.2156034e+22, w: 6.452218e-10}
+  m_BoundingSphereOverride: {x: 7.47e-43, y: -2.0825932e+10, z: 7.47e-43, w: -2.082594e+10}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -64667,7 +65042,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 2.3509887e-38, z: 0.0000000018773108, w: 0.0000000037252903}
+  m_BoundingSphereOverride: {x: 0, y: -2.3123984e+10, z: 7.47e-43, w: -7.158104e-21}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -64842,7 +65217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1698413398}
   - component: {fileID: 1698413397}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (75)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64940,43 +65315,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -24.7
+      value: -16.8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 14.88
+      value: 49.2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -54.66
+      value: -129
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.03579542
+      value: 0.03602374
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.00052620313
+      value: -0.0004710226
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.9760806
+      value: 0.982998
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.21444154
+      value: 0.1800473
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -24.75
+      value: -20.733
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 175.601
+      value: 175.667
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0.904
+      value: 0.738
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
       propertyPath: m_Name
@@ -64989,7 +65364,7 @@ PrefabInstance:
     - target: {fileID: 1282219121056404672, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 05c35358272eb5a4090ef53ae5926960, type: 2}
+      objectReference: {fileID: 2100000, guid: fe41958d02b87654fb7bc3ac28d0e0d0, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
 --- !u!1 &1698949234 stripped
@@ -65031,7 +65406,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1701504311}
   - component: {fileID: 1701504310}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightSquare (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65114,7 +65489,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1702399858}
   - component: {fileID: 1702399857}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65338,13 +65713,13 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 6.977992e+22, y: NaN, z: 44659.43, w: 4.5443537e+30}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -65521,6 +65896,10 @@ PrefabInstance:
       value: Sprite (77)
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 64
       objectReference: {fileID: 0}
@@ -65608,6 +65987,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -66991,7 +67374,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1726292021}
   - component: {fileID: 1726292020}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67228,7 +67611,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1730184111}
   - component: {fileID: 1730184110}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67311,7 +67694,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1735411878}
   - component: {fileID: 1735411877}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DistanceYellowDot (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67394,7 +67777,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1735659278}
   - component: {fileID: 1735659277}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (51)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67639,6 +68022,10 @@ PrefabInstance:
       value: Sprite (47)
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 64
       objectReference: {fileID: 0}
@@ -67722,7 +68109,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1747672117}
   - component: {fileID: 1747672116}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (84)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67869,7 +68256,7 @@ PrefabInstance:
     - target: {fileID: 1282219121056404672, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 05c35358272eb5a4090ef53ae5926960, type: 2}
+      objectReference: {fileID: 2100000, guid: fe41958d02b87654fb7bc3ac28d0e0d0, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
 --- !u!4 &1747728145 stripped
@@ -67964,6 +68351,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -68363,6 +68754,10 @@ PrefabInstance:
       value: Sprite (10)
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 64
       objectReference: {fileID: 0}
@@ -68451,6 +68846,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sprite (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Size.x
       value: 20
@@ -68535,6 +68934,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Size.x
@@ -68637,16 +69040,16 @@ ReflectionProbe:
   m_Enabled: 1
   serializedVersion: 2
   m_Type: 0
-  m_Mode: 0
+  m_Mode: 1
   m_RefreshMode: 1
   m_TimeSlicingMode: 2
-  m_Resolution: 16
+  m_Resolution: 2048
   m_UpdateFrequency: 0
-  m_BoxSize: {x: 7.5807843, y: 11.113808, z: 13.202114}
-  m_BoxOffset: {x: -0.41635227, y: -1.8676605, z: -6.601059}
+  m_BoxSize: {x: 48.543488, y: 11.113808, z: 30.748367}
+  m_BoxOffset: {x: 1.9656177, y: -5.556904, z: -5.5287476}
   m_NearClip: 0.3
   m_FarClip: 100
-  m_ShadowDistance: 100
+  m_ShadowDistance: 10
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_CullingMask:
@@ -68668,7 +69071,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1765101633}
   m_LocalRotation: {x: 0.4322735, y: -0, z: -0, w: 0.9017426}
-  m_LocalPosition: {x: -5.621271, y: -33.693367, z: 55.524483}
+  m_LocalPosition: {x: -4.5757422, y: -42.310757, z: 73.33414}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -69037,6 +69440,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sprite (73)
       objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Size.x
       value: 20
@@ -69059,11 +69466,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2659896648288263275, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.75179565
+      value: 0.7705045
       objectReference: {fileID: 0}
     - target: {fileID: 2659896648288263275, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.4485544
+      value: 2.619421
       objectReference: {fileID: 0}
     - target: {fileID: 2659896648288263275, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_LocalScale.z
@@ -69071,15 +69478,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2659896648288263275, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.140005
+      value: -8.4
       objectReference: {fileID: 0}
     - target: {fileID: 2659896648288263275, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.3500025
+      value: -2.3
       objectReference: {fileID: 0}
     - target: {fileID: 2659896648288263275, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -17.56003
+      value: -17.5
       objectReference: {fileID: 0}
     - target: {fileID: 2659896648288263275, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -69198,7 +69605,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1781965037}
   - component: {fileID: 1781965036}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (66)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69696,7 +70103,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1807120086}
   - component: {fileID: 1807120085}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (76)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69954,7 +70361,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1824262310}
   - component: {fileID: 1824262309}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70367,7 +70774,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1837020711}
   - component: {fileID: 1837020710}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70616,7 +71023,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1857235974}
   - component: {fileID: 1857235973}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (54)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70772,7 +71179,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1858416945}
   - component: {fileID: 1858416944}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DistanceYellowDot (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71158,13 +71565,13 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 3.85186e-34, y: 1.5046328e-36, z: 2.3509887e-38, w: 4.5918e-41}
+  m_BoundingSphereOverride: {x: 4.5904e-41, y: NaN, z: 4.5904e-41, w: 9.403955e-38}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -71257,7 +71664,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.35e-43, y: 0, z: 6.592e-42, w: 1e-45}
+  m_BoundingSphereOverride: {x: 0, y: 7.85e-43, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -71344,13 +71751,13 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 1.1883e-41, y: NaN, z: 4.5904e-41, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -71363,7 +71770,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1870114788}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.99, y: 3.6, z: 42.41}
+  m_LocalPosition: {x: 18.11, y: 3.6, z: 42.41}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -71448,7 +71855,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1875714279}
   - component: {fileID: 1875714278}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightSquare (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71677,7 +72084,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1885675592}
   - component: {fileID: 1885675591}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71761,6 +72168,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sprite (70)
       objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Size.x
       value: 20
@@ -71841,7 +72252,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1890236227}
   - component: {fileID: 1890236226}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71924,7 +72335,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1895035960}
   - component: {fileID: 1895035959}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BlueLightSquare (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72155,7 +72566,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1907454526}
   - component: {fileID: 1907454525}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72465,6 +72876,95 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 494
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1914467239
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 95357722}
+    m_Modifications:
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Name
+      value: Sprite (74)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Size.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Size.y
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3f7a8c2fcf719e840aa7482a8ef50150, type: 3}
+    - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2659896648288263275, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2659896648288263275, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.91109306
+      objectReference: {fileID: 0}
+    - target: {fileID: 2659896648288263275, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.0973687
+      objectReference: {fileID: 0}
+    - target: {fileID: 2659896648288263275, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.94634944
+      objectReference: {fileID: 0}
+    - target: {fileID: 2659896648288263275, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 2659896648288263275, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2659896648288263275, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -22.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 2659896648288263275, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.0038960646
+      objectReference: {fileID: 0}
+    - target: {fileID: 2659896648288263275, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.015338158
+      objectReference: {fileID: 0}
+    - target: {fileID: 2659896648288263275, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.69186634
+      objectReference: {fileID: 0}
+    - target: {fileID: 2659896648288263275, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7218522
+      objectReference: {fileID: 0}
+    - target: {fileID: 2659896648288263275, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 87.399
+      objectReference: {fileID: 0}
+    - target: {fileID: 2659896648288263275, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 21.665
+      objectReference: {fileID: 0}
+    - target: {fileID: 2659896648288263275, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 200.106
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
 --- !u!1 &1916407320
 GameObject:
   m_ObjectHideFlags: 0
@@ -72553,7 +73053,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.6842217e+22, y: 2.9392982e+29, z: 1.7751393e+28, w: 2.3546824e+20}
+  m_BoundingSphereOverride: {x: 0, y: -1.5842042e+10, z: 7.47e-43, w: -2.4295784e+10}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -72632,7 +73132,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.3302705e+37, y: 1.3563128e-19, z: 1.3563156e-19, w: 1.3563156e-19}
+  m_BoundingSphereOverride: {x: 0, y: -3.994973e+10, z: 7.47e-43, w: -1.5842042e+10}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -72822,7 +73322,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 5.9e-44, y: 4e-45, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 2.2e-44, y: -2.4405384e-30, z: 1.83716e-40, w: 1.653039e-39}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -72923,13 +73423,13 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.01e-43, y: NaN, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 3.2645e-41, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -73076,6 +73576,79 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9416ca6e82bbb724eb7064dd44d2b88b, type: 3}
+--- !u!1001 &1940696710
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 95357722}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.009999998
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.009999999
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.009999997
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.713408
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.9144979
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -23.257488
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.00030650198
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0752254
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.94659823
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.31351689
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -18.219
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 21.682
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fe41958d02b87654fb7bc3ac28d0e0d0, type: 2}
+    - target: {fileID: 919132149155446097, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_Name
+      value: Wheel (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 030d021581503824dbc93902348da030, type: 3}
 --- !u!1 &1942301994
 GameObject:
   m_ObjectHideFlags: 0
@@ -73086,7 +73659,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1942301996}
   - component: {fileID: 1942301995}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DistanceYellowDot (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73169,7 +73742,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1944853077}
   - component: {fileID: 1944853076}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (71)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73252,7 +73825,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1947866964}
   - component: {fileID: 1947866963}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73445,7 +74018,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: e1b5cc31c147e144cb8655d15a2932b3, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 05c35358272eb5a4090ef53ae5926960, type: 2}
+      objectReference: {fileID: 2100000, guid: fe41958d02b87654fb7bc3ac28d0e0d0, type: 2}
     - target: {fileID: 919132149155446097, guid: e1b5cc31c147e144cb8655d15a2932b3, type: 3}
       propertyPath: m_Name
       value: Building (7)
@@ -73662,7 +74235,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1972293518}
   - component: {fileID: 1972293517}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DistanceYellowDot (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73883,7 +74456,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1978622456}
   - component: {fileID: 1978622455}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73966,7 +74539,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1979198964}
   - component: {fileID: 1979198963}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -74399,13 +74972,13 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 2.72e-43, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 5.9e-44, y: 4e-45, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -74418,7 +74991,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1981885710}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.19, y: 3.53, z: 45.58}
+  m_LocalPosition: {x: 19.13, y: 3.53, z: 45.58}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -74511,7 +75084,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1987962870}
   - component: {fileID: 1987962869}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BlueLightSquare (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -74594,7 +75167,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1990152061}
   - component: {fileID: 1990152060}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Resturant
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -74985,7 +75558,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1994486843}
   - component: {fileID: 1994486842}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (70)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75162,43 +75735,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.729935
+      value: -11.330026
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.7006577
+      value: -1.73998
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -23.267725
+      value: -23.330084
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.05755069
+      value: -0.013215032
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.06679468
+      value: -0.03290426
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.95401615
+      value: -0.95881927
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.28649563
+      value: -0.28179485
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -33.665
+      value: -32.65
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 184.931
+      value: 177.012
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 6.517
+      value: 4.806
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 030d021581503824dbc93902348da030, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -75220,6 +75793,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2659896648288263275, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_RootOrder
@@ -75423,7 +76000,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2013720966}
   - component: {fileID: 2013720965}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (67)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75506,7 +76083,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2016533856}
   - component: {fileID: 2016533855}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BlueLightSquare (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75589,7 +76166,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2019189100}
   - component: {fileID: 2019189099}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightSquare (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75814,7 +76391,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2028073426}
   - component: {fileID: 2028073425}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightSquare (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75897,7 +76474,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2031490739}
   - component: {fileID: 2031490738}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -76032,7 +76609,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 9416ca6e82bbb724eb7064dd44d2b88b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 05c35358272eb5a4090ef53ae5926960, type: 2}
+      objectReference: {fileID: 2100000, guid: fe41958d02b87654fb7bc3ac28d0e0d0, type: 2}
     - target: {fileID: 919132149155446097, guid: 9416ca6e82bbb724eb7064dd44d2b88b, type: 3}
       propertyPath: m_Name
       value: BuildingExtension1 (25)
@@ -76126,7 +76703,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2038486160}
   - component: {fileID: 2038486159}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DistanceRedDot (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -76282,6 +76859,79 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 666
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2046491580
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 95357722}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.009999998
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.009999999
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.009999997
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.61
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.68
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -13.02
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.00030650198
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0752254
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.94659823
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.31351689
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -18.219
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 21.682
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fe41958d02b87654fb7bc3ac28d0e0d0, type: 2}
+    - target: {fileID: 919132149155446097, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_Name
+      value: Wheel
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 030d021581503824dbc93902348da030, type: 3}
 --- !u!1 &2052215312
 GameObject:
   m_ObjectHideFlags: 0
@@ -76468,6 +77118,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -76808,7 +77462,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: f1169049f3930d64c8672cfa7ebfe253, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: b50c90beedd005143b0e78a19bd83ab5, type: 2}
+      objectReference: {fileID: 2100000, guid: fe41958d02b87654fb7bc3ac28d0e0d0, type: 2}
     - target: {fileID: 919132149155446097, guid: f1169049f3930d64c8672cfa7ebfe253, type: 3}
       propertyPath: m_Name
       value: BuildingOverhang2 (1)
@@ -76902,7 +77556,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2066918475}
   - component: {fileID: 2066918474}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BlueLightSquare (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -77124,6 +77778,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sprite (64)
       objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Size.x
       value: 20
@@ -77208,7 +77866,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2075939193}
   - component: {fileID: 2075939192}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BlueLightSquare (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -77291,6 +77949,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite (68)
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Size.x
@@ -77384,7 +78046,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2080551506}
   - component: {fileID: 2080551505}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightSquare (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -77562,7 +78224,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2084924239}
   - component: {fileID: 2084924238}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -77709,7 +78371,7 @@ PrefabInstance:
     - target: {fileID: 1282219121056404672, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 05c35358272eb5a4090ef53ae5926960, type: 2}
+      objectReference: {fileID: 2100000, guid: fe41958d02b87654fb7bc3ac28d0e0d0, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bcd9c3dda8ae28449481527324141a2, type: 3}
 --- !u!4 &2088142598 stripped
@@ -77727,7 +78389,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2091769255}
   - component: {fileID: 2091769254}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78014,7 +78676,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2101361329}
   - component: {fileID: 2101361328}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BlueLightSquare (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78097,7 +78759,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2107088658}
   - component: {fileID: 2107088657}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlueDistance (64)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78253,7 +78915,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2113957777}
   - component: {fileID: 2113957776}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DistanceYellowDot (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78453,7 +79115,7 @@ PrefabInstance:
     - target: {fileID: 3111333255078038577, guid: c68b2807a329422449727ba2363626b1, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 05c35358272eb5a4090ef53ae5926960, type: 2}
+      objectReference: {fileID: 2100000, guid: fe41958d02b87654fb7bc3ac28d0e0d0, type: 2}
     - target: {fileID: 6040046702703213393, guid: c68b2807a329422449727ba2363626b1, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -78542,17 +79204,86 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: -8.1775057e-25, z: 4.5904e-41, w: 0}
+  m_BoundingSphereOverride: {x: 0.000875301, y: 58569856, z: 1.0899115e+27, w: 1.0899094e+27}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1001 &2125240137
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 95357722}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.009999999
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.009999997
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -11.729905
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.700646
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -23.267712
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.08904246
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.07919107
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9459465
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.30163813
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -35.787
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 188.556
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 6.804
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fe41958d02b87654fb7bc3ac28d0e0d0, type: 2}
+    - target: {fileID: 919132149155446097, guid: 030d021581503824dbc93902348da030, type: 3}
+      propertyPath: m_Name
+      value: Wheel (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 030d021581503824dbc93902348da030, type: 3}
 --- !u!1001 &2132436396
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -78697,7 +79428,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2138427360}
   - component: {fileID: 2138427359}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BlueLightSquare (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78935,6 +79666,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sprite (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1323821213430674128, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Size.x
       value: 20
@@ -79019,6 +79754,10 @@ PrefabInstance:
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_Name
       value: Sprite
+      objectReference: {fileID: 0}
+    - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 204801616184281314, guid: 5156165ffdd497d438d2c6d6855703d1, type: 3}
       propertyPath: m_StaticEditorFlags
